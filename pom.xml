@@ -24,10 +24,7 @@
     <!-- Important for reproducible builds. Update using e.g. ./mvnw versions:set -DnewVersion=... -->
     <project.build.outputTimestamp>2023-05-10T07:42:50Z</project.build.outputTimestamp>
 
-    <sonar.host.url>http://52.66.188.253:9000/</sonar.host.url>
-    <sonar.projectKey>your.project.key</sonar.projectKey>
-    <sonar.projectName>Your Project Name</sonar.projectName>
-    <sonar.projectVersion>${project.version}</sonar.projectVersion>
+    <sonar.host.url>https://52.66.188.253:9000/</sonar.host.url>
     <sonar.login>squ_ab9eeaa63278b5f3903d21107f2d13f3ed05b086</sonar.login>
 
     <!-- Web dependencies -->
