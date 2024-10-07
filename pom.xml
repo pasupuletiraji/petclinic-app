@@ -315,27 +315,13 @@
         </snapshots>
     </repository>
     <repository>
-        <id>nexus-release</id>
-        <name>E-commerce</name>
-        <url>http://18.179.205.169:8081/repository/E-commerce/</url>
-        <releases>
-            <enabled>true</enabled>
-        </releases>
-        <snapshots>
-            <enabled>false</enabled>
-        </snapshots>
-    </repository>
-    <repository>
-        <id>nexus-snapshot</id>
-        <name>e-commerce-snapshot</name>
-        <url>http://18.179.205.169:8081/repository/e-commerce-snapshot/</url>
-        <releases>
-            <enabled>false</enabled>
-        </releases>
-        <snapshots>
-            <enabled>true</enabled>
-        </snapshots>
-    </repository>
+    <id>nexus</id>
+    <url>https://18.179.205.169:8081/repository/E-commerce/</url>
+</repository>
+<repository>
+    <id>nexus-snapshot</id>
+    <url>https://18.179.205.169:8081/repository/e-commerce-snapshot/</url>
+</repository>
   
   </repositories>
 
