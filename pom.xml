@@ -315,7 +315,7 @@
         </snapshots>
     </repository>
     <repository>
-        <id>nexus</id>
+        <id>nexus-release</id>
         <name>E-commerce</name>
         <url>http://18.179.205.169:8081/repository/E-commerce/</url>
         <releases>
@@ -326,7 +326,7 @@
         </snapshots>
     </repository>
     <repository>
-        <id>nexus</id>
+        <id>nexus-snapshot</id>
         <name>e-commerce-snapshot</name>
         <url>http://18.179.205.169:8081/repository/e-commerce-snapshot/</url>
         <releases>
